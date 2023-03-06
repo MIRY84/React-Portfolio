@@ -4,6 +4,8 @@ import Home from "./routes/Home";
 import Projects from "./routes/Projects";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./components/Navbar";
 //import { Route, RouterProvider } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 
