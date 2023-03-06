@@ -19,3 +19,6 @@
   ul{
     list-style-type: none;
   }
+  .navbar-nav {
+    margin-left: auto;
+  }
