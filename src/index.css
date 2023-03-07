@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Outfit', sans-serif;
+    background-color: aqua;
+
    
     
    
@@ -16,7 +18,7 @@
   
 
   h1, h4, p, a {
-    color:aquamarine;
+    color:blue;
     text-decoration: none;
   }
 
