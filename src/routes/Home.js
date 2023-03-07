@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+
 const Home=()=> {
     return (
         <div>
@@ -12,23 +13,11 @@ const Home=()=> {
   <p className="lead">
     <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
   </p>
-</div>
-<div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img className="d-block w-100" src={require('./')} alt="First slide" />
-    </div>
-    <div className="carousel-item">
-      <img className="d-block w-100" src="..." alt="Second slide" />
-    </div>
-    <div className="carousel-item">
-      <img className="d-block w-100" src="..." alt="Third slide" />
-    </div>
   </div>
-</div>
 
-</div>
-
-    )
+    
+    </div>
+    
+ );
 }
- export default Home
+ export default Home;
