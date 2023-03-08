@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import { FaFacebook } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { AiTwotoneMail } from 'react-icons/ai';
@@ -13,7 +13,7 @@ import "./styles/Home.css";
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
       <div className="home">
         <div className="about text-center">
           <h2> Hi I am Mirellla a web developer with a passion for best performsnces </h2>
