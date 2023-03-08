@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar";
 //import { Route, RouterProvider } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
-
+import Footer from "./components/Footer";
 function App() {
   return (//created routes to different pages
     <>
@@ -20,6 +20,7 @@ function App() {
 
 
       </Routes>
+      <Footer />
       </>
   );
 }
