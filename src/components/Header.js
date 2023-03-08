@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import { navlink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (

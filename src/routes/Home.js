@@ -20,7 +20,8 @@ const Home = () => {
           <div className="prompt text-center">
             <p> Web developer with a degree in Administration
               voluptatibus maiores alias consequatur aut perferendis
-              doloribus asperiores repellat.</p>
+              doloribus asperiores repellat.
+              </p>
             <img src={Myprofile}></img>
 
 
