@@ -8,7 +8,7 @@ import "../routes/styles/Footer.css";
 
 const Footer = () => {
   return (
-    <div className= "footer">
+    <div className= "footer text-center">
      <div>
      <AiTwotoneMail />
        

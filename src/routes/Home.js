@@ -10,9 +10,9 @@ const Home=()=> {
         <div>
             <Navbar />
             <div className="home">
-              <div className="about">
+              <div className="about text-center">
                 <h2> Hi I am Mirellla a web developer with a passion for best performsnces </h2>
-              <div className="prompt">
+              <div className="prompt text-center">
                 <p> Web developer with a degree in Administration
             voluptatibus maiores alias consequatur aut perferendis
         doloribus asperiores repellat.</p>
@@ -27,7 +27,7 @@ const Home=()=> {
 </div>
 </div>
 
- <div className="skills">
+ <div className="skills text-center">
   <h1>Skills</h1>
   <ol className="list">
     <li className="item">
