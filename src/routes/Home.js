@@ -5,7 +5,7 @@ import { FaTwitter } from 'react-icons/fa';
 import { AiTwotoneMail } from 'react-icons/ai';
 import { AiFillHtml5 } from 'react-icons/ai';
 import "../routes/styles/Footer.css";
-import Myprofile from "../routes/images/my-profile-picture.jfif";
+import Myprofile from "../components/images/my-profile-picture.jfif";
 import { FaFilePdf } from "react-icons/fa";
 import "./styles/Home.css";
 

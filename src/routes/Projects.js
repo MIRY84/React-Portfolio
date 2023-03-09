@@ -2,6 +2,7 @@ import React from 'react'
 import projects from "../components/Projects/Project.json";
 import ProjectCard from "../components/ProjectCard";
 
+
 function ProjectGallery() {
   return (
     <div className="row">
