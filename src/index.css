@@ -28,7 +28,7 @@
     list-style-type: none;
 
   }
-  .navbar-nav {
+  li .nav-item {
     margin-left: auto;
     justify-content: center;
     align-items: center;

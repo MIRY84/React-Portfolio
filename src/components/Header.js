@@ -39,7 +39,7 @@ const Header = () => {
               isActive ? 'nav-link active' : 'nav-link'
             }
           >
-            Contact
+            About
           </NavLink>
         </li>
         <li className="nav-item">
