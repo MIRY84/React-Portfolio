@@ -1,30 +1,57 @@
 
 
 import React from 'react'
-import { Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <a className="nav-item" href='#'>My Portfolio</a>
-     
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-     
+  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <a className="nav-item" href='#'>My Portfolio</a>     
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">     
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item active">
-          <a className="nav-link" href="/">Home <span class="sr-only"></span></a>
+      <ul className="nav nav-tabs bg-dark">
+        <li className="nav-item">
+          <NavLink
+            to="React-Portfolio/"
+            end
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
+          >
+            Home
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/about">About</a>
+          <NavLink
+            to="React-Portfolio/projects"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
+          >
+            Project Gallery
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/projects">Projects</a>
+          <NavLink
+            to="React-Portfolio/about"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
+          >
+            Contact
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/contact">Contact</a>
-        </li>
+          <NavLink
+            to="React-Portfolio/contact"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
+          >
+            Contact
+          </NavLink>
+        </li>        
       </ul>
     </div>
   </nav>
