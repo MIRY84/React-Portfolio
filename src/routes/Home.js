@@ -13,7 +13,6 @@ import "./styles/Home.css";
 const Home = () => {
   return (
     <div>
-      <Header />
       <div className="home">
         <div className="about text-center">
           <h2> Hi I am Mirellla a web developer with a passion for best performsnces </h2>

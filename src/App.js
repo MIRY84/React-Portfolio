@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 function App() {
   return (//created routes to different pages
     <>
-   
+   <Header />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
