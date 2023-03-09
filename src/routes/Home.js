@@ -15,12 +15,10 @@ const Home = () => {
     <div>
       <div className="home">
         <div className="about text-center">
-          <h2> Hi I am Mirellla a web developer with a passion for best performsnces </h2>
+          <h2> Hi I am Mirella Dimichino,</h2> 
+          <h3>a web developer with a passion for best performances </h3>
           <div className="prompt text-center">
-            <p> Web developer with a degree in Administration
-              voluptatibus maiores alias consequatur aut perferendis
-              doloribus asperiores repellat.
-              </p>
+            <p> Web developer with a degree in Administration</p>
             <img src={Myprofile}></img>
 
 

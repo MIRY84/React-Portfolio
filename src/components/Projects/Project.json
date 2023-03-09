@@ -29,16 +29,16 @@
     },
     {
         "id": 5,
-        "name": "",
-        "deployedLink": "",
-        "gitHubLink": "",
-        "image": ""
+        "name": "Weather-Dashboard",
+        "deployedLink": "https://miry84.github.io/Weather-dashboard/",
+        "gitHubLink": "https://github.com/MIRY84/Weather-dashboard",
+        "image": "/images/weatherdash.png"
     },
     {
         "id": 6,
-        "name": "",
-        "deployedLink": "",
-        "gitHubLink": "",
-        "image": ""
+        "name": "Password-Generator",
+        "deployedLink": "https://miry84.github.io/Password-generator/",
+        "gitHubLink": "https://github.com/MIRY84/Password-generator",
+        "image": "/images/Passwordgen.png"
     }
 ]

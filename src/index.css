@@ -18,20 +18,22 @@
  
   
 
-  h1, h4, p, a {
+  h1, h4, h2, p, a {
     color:blue;
     text-decoration: none;
     font-size: large;
+    text-align: center;
   }
 
   ul, ol{
     list-style-type: none;
 
   }
-  li .nav-item {
+   li .nav-item {
     margin-left: auto;
-    justify-content: center;
+   
     align-items: center;
+    text-align: center;
   }
   .list {
     min-height: 100px;
