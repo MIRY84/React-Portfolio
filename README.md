@@ -5,7 +5,7 @@ In this project I applied all my knowledge with React.
 
 ## Screenshot
 
-![alt text](./src/components/images/reactport.png)
+![alt text](./src/components/images/portfolio2.png)
 
 ## Instruction
 
