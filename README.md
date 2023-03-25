@@ -17,7 +17,7 @@ MIT
 
 ## Link
 
-http://localhost:3000/React-Portfolio/
+https://miry84.github.io/React-Portfolio/
 
 
 
