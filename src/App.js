@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer";
 function App() {
   return (//created routes to different pages
+  <>
     <Router>
      
       <Routes>
@@ -21,6 +22,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </>
   );
 }
 
