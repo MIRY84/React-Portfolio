@@ -7,12 +7,12 @@ import Projects from "./routes/Projects";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from "./components/Header";
+
 import Footer from "./components/Footer";
 function App() {
   return (//created routes to different pages
     <Router>
-      <Header />
+     
       <Routes>
         <Route path="React-Portfolio/" element={<Home />} />
         <Route path="React-Portfolio/projects" element={<Projects />} />
