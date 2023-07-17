@@ -9,11 +9,12 @@ import Contact from "./routes/Contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 function App() {
   return (//created routes to different pages
   <>
     <Router>
-     
+     <Header/>
       <Routes>
         <Route path="React-Portfolio/" element={<Home />} />
         <Route path="React-Portfolio/projects" element={<Projects />} />
