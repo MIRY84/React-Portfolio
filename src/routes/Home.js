@@ -8,6 +8,11 @@ import "../routes/styles/Footer.css";
 import Myprofile from "../components/images/my-profile-picture.jfif";
 import { FaFilePdf } from "react-icons/fa";
 import "./styles/Home.css";
+import { FaLinkedin } from "react-icons/fa";
+import { FaHtml5, FaReact, FaCss3, FaJs, FaBootstrap, FaGit, FaGithub } from "react-icons/fa";
+
+
+
 
 
 const Home = () => {
@@ -29,19 +34,22 @@ const Home = () => {
         <ol className="list">
           <li className="item">
             <h2>FrontEnd</h2>
-            <span>
-              React, Html, css, Bootstrap, Jquery, Javascript
-              <div className="icons">
-                <AiFillHtml5 />
-                <AiTwotoneMail />
 
-                <a href="https://docs.google.com/document/d/1vQA-AqsYupxodKe1P_cX78ub14Fs5wIAOGhH8exQxBE/edit" role="button" className="icon">
-                  <FaFilePdf />
-                </a>
-                <FaTwitter />
-                <FaFacebook />
-              </div>
-            </span>
+            <div className="icons">
+              <FaReact /> <FaCss3 />
+              <FaJs />
+              <FaHtml5 /> <FaBootstrap /> <FaGit /> <FaGithub />
+
+
+
+
+
+
+
+
+
+            </div>
+
           </li>
         </ol>
       </div>
