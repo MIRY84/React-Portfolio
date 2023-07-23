@@ -34,7 +34,7 @@ const Home = () => {
         <h1>Skills</h1>
         <ol className="list">
           <li className="item">
-            <h2>FrontEnd</h2>
+            <h2>Languages</h2>
             <span>
               React, Html, css, Bootstrap, Jquery, Javascript
               <div className="icons">
