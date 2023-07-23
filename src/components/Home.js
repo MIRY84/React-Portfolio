@@ -16,7 +16,7 @@ const Home = () => {
       <div className="home">
         <div className="about text-center">
           <h2> Hi I am Mirella Dimichino,</h2> 
-          <h3>FrontEndweb developer with a passion for best performances </h3>
+          <h3>FrontEnd Developer with a passion for best performances </h3>
           <div className="prompt text-center">
             <p> Passionate Web developer with a background in hospitality</p>
             <img src={Myprofile}></img>
