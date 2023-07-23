@@ -5,10 +5,10 @@ function Contact(props) {
     <div className="row">
       <div className="col-12 text-center">
         <h1>Contact Page</h1>
-        <p>
+        <h3 className="prompt text-center m-auto">
          Please contact me for collaboration or future work.
 
-        </p>
+         </h3>
       </div>
       <div className="col-12 text-center">
         <a href="https://github.com/MIRY84" role="button" className="btn btn-link">
