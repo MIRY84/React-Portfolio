@@ -6,7 +6,7 @@ function Contact(props) {
       <div className="col-12 text-center">
         <h1>Contact Page</h1>
         <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
+         Please contact me for collaboration or future work.
 
         </p>
       </div>
