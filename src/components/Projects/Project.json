@@ -1,20 +1,27 @@
 [
     {
         "id": 0,
+        "name": "Jack-Portfolio",
+        "deployedLink": "https://giacomodimichino.netlify.app/",
+        "gitHubLink": "https://github.com/MIRY84/Jack-portfolio",
+        "image": "/images/screenshot1.png"
+    },
+    {
+        "id": 1,
         "name": "Quick-movies",
         "deployedLink": "https://miry84.github.io/Quick-movies/",
         "gitHubLink": "https://github.com/MIRY84/Quick-movies",
         "image": "/images/Quick-movies3.png"
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "Team Profile Generator",
         "deployedLink": "https://miry84.github.io/team--profile--generator/",
         "gitHubLink": "https://github.com/MIRY84/team--profile--generator",
         "image": "/images/My-team.png"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Daily Planner",
         "deployedLink": "https://miry84.github.io/Daily-planner/",
         "gitHubLink": "https://github.com/MIRY84/Daily-planner",
