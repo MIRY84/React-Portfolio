@@ -28,11 +28,11 @@ const Header = () => {
     
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto">
-            <NavLink to="React-Portfolio/" className={activeLink === 'home'? 'active navbar-link': 'navbar-link'} onClick={()=>onUpdateActiveLink('home')}>Home</NavLink>
-            <NavLink to="React-Portfolio/about" className={activeLink === 'about'? 'active navbar-link': 'navbar-link'} onClick={()=>onUpdateActiveLink('about')}>About</NavLink>
-            <NavLink to="React-Portfolio/projects"className={activeLink === 'projects'? 'active navbar-link': 'navbar-link'} onClick={()=>onUpdateActiveLink('projects')}>Projects</NavLink>
-            <NavLink to="React-Portfolio/contact"className={activeLink === 'contact'? 'active navbar-link': 'navbar-link'} onClick={()=>onUpdateActiveLink('contact')}>Contact</NavLink>
+        <Nav className='m-auto'>
+            <NavLink to="React-Portfolio/" className={activeLink === 'home'? 'active navbar-link ': 'navbar-link'} onClick={()=>onUpdateActiveLink('home')}>Home</NavLink>
+            <NavLink to="React-Portfolio/about" className={activeLink === 'about'? 'active navbar-link  ': 'navbar-link'} onClick={()=>onUpdateActiveLink('about')}>About</NavLink>
+            <NavLink to="React-Portfolio/projects"className={activeLink === 'projects'? 'active navbar-link ': 'navbar-link'} onClick={()=>onUpdateActiveLink('projects')}>Projects</NavLink>
+            <NavLink to="React-Portfolio/contact"className={activeLink === 'contact'? 'active navbar-link  ': 'navbar-link'} onClick={()=>onUpdateActiveLink('contact')}>Contact</NavLink>
         </Nav>
        
         
