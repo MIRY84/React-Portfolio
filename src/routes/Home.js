@@ -15,17 +15,11 @@ const Home = () => {
     <div>
       <div className="home">
         <div className="about text-center">
-          <h2> Hi I am Mirella Dimichino,</h2> 
+          <h2> Hi I am Mirella Dimichino,</h2>
           <h3>a web developer with a passion for best performances </h3>
           <div className="prompt text-center">
-            <p> Passionate Web developer with a degree in Administration</p>
+            <p> Passionate Web developer with a background in Hospitality</p>
             <img src={Myprofile}></img>
-
-
-
-
-
-
           </div>
         </div>
       </div>
@@ -38,14 +32,14 @@ const Home = () => {
             <span>
               React, Html, css, Bootstrap, Jquery, Javascript
               <div className="icons">
-              <AiFillHtml5 />
-              <AiTwotoneMail />
+                <AiFillHtml5 />
+                <AiTwotoneMail />
 
-              <a href="https://docs.google.com/document/d/1vQA-AqsYupxodKe1P_cX78ub14Fs5wIAOGhH8exQxBE/edit" role="button" className="icon">
-                <FaFilePdf />
-              </a>
-              <FaTwitter />
-              <FaFacebook />
+                <a href="https://docs.google.com/document/d/1vQA-AqsYupxodKe1P_cX78ub14Fs5wIAOGhH8exQxBE/edit" role="button" className="icon">
+                  <FaFilePdf />
+                </a>
+                <FaTwitter />
+                <FaFacebook />
               </div>
             </span>
           </li>
